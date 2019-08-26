@@ -8,8 +8,6 @@ InversifyJS requires a modern JavaScript engine with support for the
 If your environment don't support one of these you will need to import a shim or polyfill.
 
 ## Metadata Reflection API
-> :warning: **The `reflect-metadata` polyfill should be imported only once in your entire application** because the Reflect object is mean to be a global singleton. More details about this can be found [here](https://github.com/inversify/InversifyJS/issues/262#issuecomment-227593844).
-
 Required always. Use [reflect-metadata](https://www.npmjs.com/package/reflect-metadata) as polyfill.
 
 ```
